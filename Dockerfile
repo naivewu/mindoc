@@ -31,7 +31,7 @@ ADD start.sh /go/src/github.com/mindoc-org/mindoc
 
 
 # Ubuntu 20.04
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 # 切换默认shell为bash
 SHELL ["/bin/bash", "-c"]
